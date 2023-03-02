@@ -23,6 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+h1 {
+  margin-left: 40px;
+}
+label {
+  margin-left: 40px;
+}
+li {
+  list-style: none;
+}
 
 .App-link {
   color: #61dafb;

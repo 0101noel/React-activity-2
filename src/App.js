@@ -1,5 +1,7 @@
-import './App.css';
 import React, { useState } from 'react';
+import TaskList from './components/TaskList';
+import './App.css';
+
 
 function App() {
   const initialTasks = [
@@ -29,6 +31,7 @@ function App() {
   const handleInputChange = event => {
     setNewTask(event.target.value);
   };
+  
 
   const handleAddTask = event => {
     event.preventDefault();
@@ -87,6 +90,7 @@ function App() {
       </ul>
     </div>
   );
+  
 }
 
 export default App;
